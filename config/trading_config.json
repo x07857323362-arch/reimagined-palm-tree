@@ -1,0 +1,32 @@
+{
+  "trading": {
+    "enabled": true,
+    "mode": "paper",
+    "timeframe": "1h",
+    "max_position_size": 1.0,
+    "stop_loss_percent": 2.0,
+    "take_profit_percent": 5.0
+  },
+  "strategies": {
+    "momentum": {
+      "enabled": true,
+      "lookback_period": 20,
+      "threshold": 0.02
+    },
+    "mean_reversion": {
+      "enabled": false,
+      "period": 30,
+      "std_dev": 2.0
+    }
+  },
+  "symbols": [
+    "BTC/USDT",
+    "ETH/USDT",
+    "BNB/USDT"
+  ],
+  "risk": {
+    "max_daily_loss": -1000,
+    "max_position_correlation": 0.7,
+    "portfolio_volatility_limit": 0.15
+  }
+}

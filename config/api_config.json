@@ -1,0 +1,16 @@
+{
+  "exchange": {
+    "name": "binance",
+    "sandbox_mode": true,
+    "rate_limit": 1200,
+    "timeout": 30
+  },
+  "api_endpoints": {
+    "market": "https://api.binance.com/api/v3",
+    "trading": "https://api.binance.com/api/v3"
+  },
+  "data_sources": [
+    "binance",
+    "coinbase"
+  ]
+}
